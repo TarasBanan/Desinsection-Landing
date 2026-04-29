@@ -113,6 +113,7 @@ npm run lint:css
 
 ## FAQ и форма заявки
 ![FAQ](docs/screenshots/faq.png)
+
 ![Форма заявки](docs/screenshots/form.png)
 
 Если нужны другие ракурсы, добавляйте их в эту же папку и дополняйте список в этом разделе.

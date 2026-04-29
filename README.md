@@ -102,11 +102,18 @@ npm run lint:css
 
 Скриншоты лендинга предполагаются в папке `docs/screenshots`. Ниже подготовлены ссылки под типовые состояния страницы:
 
-- [Hero desktop](docs/screenshots/hero-desktop.png)
-- [Hero mobile](docs/screenshots/hero-mobile.png)
-- [Калькулятор стоимости](docs/screenshots/calculator.png)
-- [Пакеты и цены](docs/screenshots/pricing.png)
-- [FAQ и форма заявки](docs/screenshots/faq-form.png)
+## Hero
+![Hero](docs/screenshots/hero.png)
+
+## Калькулятор стоимости
+![Калькулятор стоимости](docs/screenshots/calculator.png)
+
+## Пакеты и цены
+![Пакеты и цены](docs/screenshots/pricing.png)
+
+## FAQ и форма заявки
+![FAQ](docs/screenshots/faq.png)
+![Форма заявки](docs/screenshots/form.png)
 
 Если нужны другие ракурсы, добавляйте их в эту же папку и дополняйте список в этом разделе.
 

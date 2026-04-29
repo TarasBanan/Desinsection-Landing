@@ -1,0 +1,30 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#F7FBF8"/>
+  <circle cx="1024" cy="164" r="240" fill="#EAF6EF"/>
+  <circle cx="180" cy="640" r="260" fill="#DCEEE5"/>
+  <rect x="96" y="98" width="492" height="524" rx="42" fill="#FFFFFF" stroke="#D9E1E7" stroke-width="2"/>
+  <rect x="136" y="144" width="186" height="40" rx="20" fill="#EAF6EF"/>
+  <text x="160" y="170" fill="#176B43" font-family="Manrope, Arial, sans-serif" font-size="18" font-weight="700">Выезд в день обращения</text>
+  <text x="136" y="244" fill="#1F2933" font-family="Manrope, Arial, sans-serif" font-size="68" font-weight="800">Обработка</text>
+  <text x="136" y="318" fill="#1F2933" font-family="Manrope, Arial, sans-serif" font-size="68" font-weight="800">от клопов</text>
+  <text x="136" y="374" fill="#667085" font-family="Manrope, Arial, sans-serif" font-size="26" font-weight="500">Понятная цена, гарантия и живой первый экран</text>
+  <rect x="136" y="444" width="272" height="68" rx="34" fill="#F28C28"/>
+  <text x="182" y="486" fill="#FFFFFF" font-family="Manrope, Arial, sans-serif" font-size="24" font-weight="800">Рассчитать стоимость</text>
+  <rect x="702" y="96" width="482" height="528" rx="56" fill="#FFFFFF" stroke="#D9E1E7" stroke-width="2"/>
+  <rect x="736" y="130" width="414" height="460" rx="40" fill="url(#paint0_linear_1_2)"/>
+  <circle cx="990" cy="358" r="118" fill="#FFFFFF" fill-opacity="0.18"/>
+  <path d="M968 318L1016 358L968 398" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="762" y="154" width="170" height="34" rx="17" fill="#FFF3E6"/>
+  <text x="792" y="176" fill="#A4540B" font-family="Manrope, Arial, sans-serif" font-size="16" font-weight="800">Видео включено</text>
+  <rect x="136" y="554" width="122" height="34" rx="17" fill="#F5F7F8"/>
+  <text x="164" y="576" fill="#667085" font-family="Manrope, Arial, sans-serif" font-size="16" font-weight="700">Mobile-first</text>
+  <rect x="274" y="554" width="114" height="34" rx="17" fill="#F5F7F8"/>
+  <text x="302" y="576" fill="#667085" font-family="Manrope, Arial, sans-serif" font-size="16" font-weight="700">Без доплат</text>
+  <defs>
+    <linearGradient id="paint0_linear_1_2" x1="1148" y1="176" x2="768" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2E8B57"/>
+      <stop offset="0.52" stop-color="#78C497"/>
+      <stop offset="1" stop-color="#F4A64B"/>
+    </linearGradient>
+  </defs>
+</svg>

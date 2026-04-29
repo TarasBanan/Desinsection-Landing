@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Обработка от клопов по разумной цене</title>
+    <meta
+      name="description"
+      content="Срочная обработка от постельных клопов с прозрачной ценой, гарантией и выездом в удобное время."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/typography.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/video.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <a class="header__brand" href="#hero" aria-label="На первый экран">
+          <span class="header__brand-mark">СЭС</span>
+          <span class="header__brand-copy">
+            <strong>Дезинсекция</strong>
+            <span>Уничтожение клопов</span>
+          </span>
+        </a>
+
+        <div class="header__meta">
+          <div class="rating-badge">
+            <span class="rating-badge__value">4.9</span>
+            <span class="rating-badge__stars" aria-hidden="true">★★★★★</span>
+            <span class="rating-badge__text">Яндекс Карты, 187 отзывов</span>
+          </div>
+
+          <a class="button button--outline header__callback" href="#contact">
+            Заказать звонок
+          </a>
+
+          <div class="header__messengers">
+            <span class="header__meta-label">Напишите нам</span>
+            <div class="social-list">
+              <a class="social-list__item social-list__item--max" href="#contact" aria-label="MAX">
+                <img
+                  src="assets/images/Логотип_MAX.svg.webp"
+                  alt=""
+                  width="40"
+                  height="40"
+                  decoding="async"
+                />
+              </a>
+              <a
+                class="social-list__item social-list__item--telegram"
+                href="#contact"
+                aria-label="Telegram"
+              >
+                <img
+                  src="assets/images/logo-telegram.png"
+                  alt=""
+                  width="40"
+                  height="40"
+                  decoding="async"
+                />
+              </a>
+            </div>
+          </div>
+
+          <a class="header__phone" href="tel:+74951234567">
+            <span class="header__meta-label">Круглосуточно</span>
+            <strong>+7 (495) 123-45-67</strong>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section" id="hero">
+        <div class="container hero__inner">
+          <div class="hero__content" data-reveal>
+            <div class="hero__badges">
+              <span class="badge">Выезд в день обращения</span>
+              <span class="badge badge--warm">Без скрытых доплат</span>
+            </div>
+
+            <p class="hero__eyebrow">Уничтожение постельных клопов в квартирах, домах и офисах</p>
+            <h1>Обработка от клопов по разумной цене</h1>
+            <p class="hero__lead">
+              Приедем в удобное время, заранее рассчитаем стоимость и проведём обработку так,
+              чтобы вы понимали каждый этап и итоговый результат.
+            </p>
+
+            <div class="hero__actions">
+              <a class="button button--primary" href="#calculator">Рассчитать точную стоимость</a>
+              <a class="button button--secondary" href="#pricing">Посмотреть пакеты</a>
+            </div>
+
+            <div class="hero__trustbar">
+              <div class="hero__trust-item">
+                <strong>50 минут</strong>
+                <span>среднее время выезда по городу</span>
+              </div>
+              <div class="hero__trust-item">
+                <strong>До 12 месяцев</strong>
+                <span>гарантия на обработку и рекомендации</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__media" data-reveal>
+            <div class="hero__media-shell">
+              <div class="hero__media-topline">
+                <span class="badge">Рекомендуем для мобильного</span>
+                <span class="hero__status">Видео активно на desktop</span>
+              </div>
+              <div class="hero__video-frame" id="hero-video-shell">
+                <video
+                  class="hero__video"
+                  id="hero-video"
+                  autoplay
+                  muted
+                  loop
+                  playsinline
+                  preload="metadata"
+                  poster="assets/video/hero-poster.jpg"
+                >
+                  <source src="assets/video/hero.webm" type="video/webm" />
+                  <source src="assets/video/hero.mp4" type="video/mp4" />
+                </video>
+                <div class="hero__video-overlay"></div>
+                <div class="hero__media-copy">
+                  <span class="hero__media-kicker">Живой первый экран</span>
+                  <p>Видео вынесено в отдельную карточку, чтобы текст оставался читабельным на мобильных.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container benefits">
+          <article class="benefit-card" data-reveal>
+            <span class="benefit-card__icon">01</span>
+            <h3>Услуги без лишней “воды”</h3>
+            <p>Показываем, что делаем, чем обрабатываем и почему именно так.</p>
+          </article>
+          <article class="benefit-card" data-reveal>
+            <span class="benefit-card__icon">02</span>
+            <h3>Цена без лишних доплат</h3>
+            <p>Ориентир по стоимости виден заранее, допработы обсуждаются отдельно.</p>
+          </article>
+          <article class="benefit-card" data-reveal>
+            <span class="benefit-card__icon">03</span>
+            <h3>Индивидуальный подход</h3>
+            <p>Схема обработки зависит от площади, заражения и режима жизни семьи.</p>
+          </article>
+          <article class="benefit-card" data-reveal>
+            <span class="benefit-card__icon">04</span>
+            <h3>Бесплатная гарантия</h3>
+            <p>Даём рекомендации и повторную обработку в рамках условий гарантии.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--soft" id="calculator">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <p class="section-heading__eyebrow">Онлайн-калькулятор</p>
+            <h2>Получите ориентировочную стоимость за 30 секунд</h2>
+            <p>
+              Калькулятор не подменяет финальную смету, но сразу показывает реалистичный диапазон
+              по вашей задаче.
+            </p>
+          </div>
+
+          <div class="calculator" data-reveal>
+            <div class="calculator__panel">
+              <div class="calculator__group">
+                <span class="calculator__label">Площадь помещения</span>
+                <div class="segmented-control" data-calc-group="area">
+                  <button class="segmented-control__item is-active" data-value="35" type="button">до 35 м²</button>
+                  <button class="segmented-control__item" data-value="55" type="button">35–55 м²</button>
+                  <button class="segmented-control__item" data-value="80" type="button">55–80 м²</button>
+                  <button class="segmented-control__item" data-value="110" type="button">80+ м²</button>
+                </div>
+              </div>
+
+              <div class="calculator__group">
+                <span class="calculator__label">Тип объекта</span>
+                <div class="segmented-control segmented-control--wide" data-calc-group="type">
+                  <button class="segmented-control__item is-active" data-value="1" type="button">Квартира</button>
+                  <button class="segmented-control__item" data-value="1.2" type="button">Дом</button>
+                  <button class="segmented-control__item" data-value="1.35" type="button">Офис</button>
+                </div>
+              </div>
+
+              <div class="calculator__group">
+                <span class="calculator__label">Степень заражения</span>
+                <div class="segmented-control segmented-control--wide" data-calc-group="level">
+                  <button class="segmented-control__item is-active" data-value="1" type="button">Точечная</button>
+                  <button class="segmented-control__item" data-value="1.25" type="button">Средняя</button>
+                  <button class="segmented-control__item" data-value="1.45" type="button">Сильная</button>
+                </div>
+              </div>
+            </div>
+
+            <aside class="calculator__summary">
+              <p class="calculator__summary-label">Ориентировочно</p>
+              <div class="calculator__price">
+                <strong id="calc-price">4 200 ₽</strong>
+                <span>с выездом и инструктажем</span>
+              </div>
+              <p class="calculator__notice">Точная цена подтверждается после уточнения деталей по телефону.</p>
+              <a class="button button--primary button--block" href="#contact">Оставить заявку</a>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <p class="section-heading__eyebrow">Услуги</p>
+            <h2>Закрываем задачи без универсальных шаблонов</h2>
+            <p>Подбираем обработку по объекту, режиму проживания и масштабу заражения.</p>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card" data-reveal>
+              <span class="service-card__mark">A</span>
+              <h3>Квартира</h3>
+              <p>Обработка спальни, мягкой мебели, плинтусов, щелей и зон повторного риска.</p>
+            </article>
+            <article class="service-card" data-reveal>
+              <span class="service-card__mark">B</span>
+              <h3>Частный дом</h3>
+              <p>Отрабатываем комнаты, подсобные зоны и соседние помещения с единым протоколом.</p>
+            </article>
+            <article class="service-card" data-reveal>
+              <span class="service-card__mark">C</span>
+              <h3>Офисы и хостелы</h3>
+              <p>Планируем работы так, чтобы не остановить объект и не потерять контроль по срокам.</p>
+            </article>
+            <article class="service-card" data-reveal>
+              <span class="service-card__mark">D</span>
+              <h3>Повторная профилактика</h3>
+              <p>Проверяем результат, усиливаем проблемные точки и фиксируем рекомендации.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--soft" id="process">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <p class="section-heading__eyebrow">Этапы работы</p>
+            <h2>Пять шагов от заявки до спокойного сна</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline__item" data-reveal>
+              <span class="timeline__step">1</span>
+              <h3>Заявка</h3>
+              <p>Фиксируем объект, площадь, срочность и первые признаки заражения.</p>
+            </article>
+            <article class="timeline__item" data-reveal>
+              <span class="timeline__step">2</span>
+              <h3>Уточнение деталей</h3>
+              <p>Объясняем, как подготовить помещение и что будет входить в обработку.</p>
+            </article>
+            <article class="timeline__item" data-reveal>
+              <span class="timeline__step">3</span>
+              <h3>Выезд мастера</h3>
+              <p>Приезжаем с оборудованием, проверяем очаги и подтверждаем сценарий работ.</p>
+            </article>
+            <article class="timeline__item" data-reveal>
+              <span class="timeline__step">4</span>
+              <h3>Обработка</h3>
+              <p>Работаем по очагам, мебели, плинтусам и смежным зонам без хаотичных проходов.</p>
+            </article>
+            <article class="timeline__item" data-reveal>
+              <span class="timeline__step">5</span>
+              <h3>Гарантия и рекомендации</h3>
+              <p>Фиксируем дальнейшие действия, сроки контроля и условия повторного выезда.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="pricing">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <p class="section-heading__eyebrow">Цены и пакеты</p>
+            <h2>Три пакета с понятным объёмом работ</h2>
+          </div>
+
+          <div class="pricing-grid">
+            <article class="pricing-card" data-reveal>
+              <h3>Базовый</h3>
+              <p class="pricing-card__price">от 3 900 ₽</p>
+              <ul class="pricing-card__list">
+                <li>Диагностика помещения</li>
+                <li>Одна зона обработки</li>
+                <li>Инструктаж после работ</li>
+              </ul>
+              <a class="button button--secondary button--block" href="#contact">Выбрать пакет</a>
+            </article>
+
+            <article class="pricing-card pricing-card--featured" data-reveal>
+              <span class="pricing-card__badge">Рекомендуем</span>
+              <h3>Оптимальный</h3>
+              <p class="pricing-card__price">от 5 700 ₽</p>
+              <ul class="pricing-card__list">
+                <li>Полная обработка комнаты и мебели</li>
+                <li>Усиление проблемных участков</li>
+                <li>Гарантийное сопровождение</li>
+              </ul>
+              <a class="button button--primary button--block" href="#contact">Оставить заявку</a>
+            </article>
+
+            <article class="pricing-card" data-reveal>
+              <h3>Расширенный</h3>
+              <p class="pricing-card__price">от 7 900 ₽</p>
+              <ul class="pricing-card__list">
+                <li>Несколько помещений или дом</li>
+                <li>Повышенная степень заражения</li>
+                <li>Повторный контроль по регламенту</li>
+              </ul>
+              <a class="button button--secondary button--block" href="#contact">Обсудить задачу</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--soft" id="guarantees">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <p class="section-heading__eyebrow">Гарантии</p>
+            <h2>Не прячем ответственность за общими формулировками</h2>
+          </div>
+
+          <div class="guarantee-grid">
+            <article class="guarantee-card" data-reveal>
+              <h3>Бесплатная повторная обработка</h3>
+              <p>Если ситуация требует повторного выезда в рамках согласованных условий, делаем это без доплат.</p>
+            </article>
+            <article class="guarantee-card" data-reveal>
+              <h3>Документы и рекомендации</h3>
+              <p>После работ даём понятный чек-лист: когда возвращаться, как проветривать и что контролировать.</p>
+            </article>
+            <article class="guarantee-card" data-reveal>
+              <h3>Прозрачная стоимость</h3>
+              <p>Не прячем цену за “дополнительные очаги”, если они обсуждались заранее на этапе расчёта.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="reviews">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <p class="section-heading__eyebrow">Отзывы</p>
+            <h2>Отзывы собраны в спокойный, доверительный формат</h2>
+            <p>Без стоковых аватаров и декоративного шума: только имя, район и суть результата.</p>
+          </div>
+
+          <div class="review-grid">
+            <article class="review-card" data-reveal>
+              <div class="review-card__head">
+                <span class="review-card__avatar">АМ</span>
+                <div>
+                  <h3>Анна М.</h3>
+                  <p>м. Кузьминки</p>
+                </div>
+              </div>
+              <p>
+                “Объяснили подготовку без лишнего давления, приехали вовремя и сразу обозначили,
+                какие зоны будут обрабатывать.”
+              </p>
+            </article>
+            <article class="review-card" data-reveal>
+              <div class="review-card__head">
+                <span class="review-card__avatar">ИК</span>
+                <div>
+                  <h3>Игорь К.</h3>
+                  <p>Химки</p>
+                </div>
+              </div>
+              <p>
+                “Понравилось, что стоимость не выросла после осмотра. Дали чёткие рекомендации, без
+                воды и страшилок.”
+              </p>
+            </article>
+            <article class="review-card" data-reveal>
+              <div class="review-card__head">
+                <span class="review-card__avatar">ЕС</span>
+                <div>
+                  <h3>Елена С.</h3>
+                  <p>Балашиха</p>
+                </div>
+              </div>
+              <p>
+                “Сделали повторный контроль по гарантии, всё спокойно и без споров. Команда говорит по делу.”
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--soft" id="faq">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <p class="section-heading__eyebrow">FAQ</p>
+            <h2>Частые вопросы перед обработкой</h2>
+          </div>
+
+          <div class="accordion" data-accordion>
+            <article class="accordion__item" data-reveal>
+              <button class="accordion__trigger" type="button" aria-expanded="false">
+                Нужно ли покидать квартиру на время обработки?
+              </button>
+              <div class="accordion__content">
+                <p>Да, на время обработки и проветривания помещение лучше освободить. Точные интервалы сообщаем до выезда.</p>
+              </div>
+            </article>
+            <article class="accordion__item" data-reveal>
+              <button class="accordion__trigger" type="button" aria-expanded="false">
+                Что делать с детьми и домашними животными?
+              </button>
+              <div class="accordion__content">
+                <p>На время работ и первичного проветривания детей и животных нужно вывести из помещения.</p>
+              </div>
+            </article>
+            <article class="accordion__item" data-reveal>
+              <button class="accordion__trigger" type="button" aria-expanded="false">
+                Будет ли запах после обработки?
+              </button>
+              <div class="accordion__content">
+                <p>Лёгкий технологический запах возможен, поэтому заранее говорим, сколько времени нужно на проветривание.</p>
+              </div>
+            </article>
+            <article class="accordion__item" data-reveal>
+              <button class="accordion__trigger" type="button" aria-expanded="false">
+                Когда понятен итоговый результат?
+              </button>
+              <div class="accordion__content">
+                <p>Контрольный период зависит от исходной ситуации. Мы фиксируем его в рекомендациях после обработки.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="lead-form" data-reveal>
+            <div class="lead-form__copy">
+              <p class="section-heading__eyebrow">Форма заявки</p>
+              <h2>Оставьте заявку, если нужен расчёт или обратный звонок</h2>
+              <p>
+                Запрашиваем только необходимое: имя, телефон и краткий комментарий по объекту,
+                чтобы быстрее подготовить расчёт и удобное время выезда.
+              </p>
+            </div>
+
+            <form class="form" id="lead-form" novalidate>
+              <label class="form-field">
+                <span>Имя</span>
+                <input type="text" name="name" placeholder="Как к вам обращаться" required />
+              </label>
+              <label class="form-field">
+                <span>Телефон</span>
+                <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required />
+              </label>
+              <label class="form-field">
+                <span>Комментарий</span>
+                <textarea name="comment" rows="4" placeholder="Площадь, район, срочность"></textarea>
+              </label>
+              <label class="form-field form-field--hidden" aria-hidden="true">
+                <span>Оставьте поле пустым</span>
+                <input type="text" name="company" tabindex="-1" autocomplete="off" />
+              </label>
+              <button class="button button--primary button--block" type="submit">Оставить заявку</button>
+              <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div>
+          <p class="footer__brand">СЭС Дезинсекция</p>
+          <p>Уничтожение постельных клопов с понятным сценарием работ и прозрачной стоимостью.</p>
+        </div>
+        <div class="footer__contacts">
+          <a href="tel:+74951234567">+7 (495) 123-45-67</a>
+          <a href="mailto:info@dez-example.ru">info@dez-example.ru</a>
+          <p>Москва, выезд по городу и области</p>
+        </div>
+        <div class="footer__legal">
+          <a href="#contact">Политика конфиденциальности</a>
+          <p>© 2026</p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="mobile-cta">
+      <a class="button button--secondary" href="tel:+74951234567">Позвонить</a>
+      <a class="button button--primary" href="#calculator">Рассчитать стоимость</a>
+    </div>
+
+    <script src="js/video.js" defer></script>
+    <script src="js/calculator.js" defer></script>
+    <script src="js/form.js" defer></script>
+    <script src="js/accordion.js" defer></script>
+    <script src="js/scroll.js" defer></script>
+  </body>
+</html>

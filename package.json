@@ -1,0 +1,19 @@
+{
+  "name": "desinsection-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mobile-first videolanding for bed bug extermination services.",
+  "scripts": {
+    "dev": "live-server . --port=5500 --host=127.0.0.1 --no-browser",
+    "start": "live-server . --port=5500 --host=127.0.0.1 --no-browser",
+    "build": "echo \"Static project: build step is not required.\"",
+    "lint:js": "eslint js/",
+    "lint:css": "stylelint \"css/**/*.css\""
+  },
+  "devDependencies": {
+    "eslint": "^9.25.1",
+    "live-server": "^1.2.2",
+    "stylelint": "^16.23.1",
+    "stylelint-config-standard": "^38.0.0"
+  }
+}
